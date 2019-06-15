@@ -1,0 +1,64 @@
+body{
+    background-color: #524747;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 36px;
+}
+
+.home{
+    background-image: url(../images/horse-background.jpg);
+}
+
+.forest{
+    background-image: url(../images/forest.jpg);
+}
+
+div{
+    background-color: rgba(216, 82, 81, 0.75);
+    color: #FFF;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header img{
+    width: 50px;
+    margin: -5px 0 0 0;
+}
+
+.header a{
+    margin-top: 15px;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;
+}
+
+.slogan{
+   color: #FFF; 
+}
+
+p{
+    margin-left: 20px;
+    font-size: 19px;
+}
+
+img{
+    width: 50%;
+    margin: 50px 25%;
+}
+
+.info{
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 75%;
+    text-align: center;
+    padding: 10px;
+    margin: 0 12.5%;
+    font-size: 28px;
+    padding-bottom: 100px;
+}
