@@ -7,13 +7,36 @@
     <link rel="stylesheet" href="../styles/main.css">
   </head>
   <body>
-    <div class="header">
-      <a href="../index.html"><img src="../images/logo.png"></a>
-      <a href="../pages/gallery.html"><b>Galerie</b></a>
-      <a href="../pages/informations.html">Informations</a>
+    <header>
+      <ul>
+	<li><a href="../index.html"><img src="../images/logo.png"></a></li>
+	<li><a href="../pages/gallery.html"><b>Galerie</b></a></li>
+	<li><a href="../pages/informations.html">Informations</a></li>
+      </ul>
+    </header>
+    <div class="slideshow-container">
+      <div class="slides">
+	<div class="numbertext">1 / 3</div>
+	<img src="../images/horse1.jpg">
+      </div>
+      <div class="slides">
+	<div class="numbertext">2 / 3</div>
+	<img src="../images/horse2.jpg">
+      </div>
+      <div class="slides">
+	<div class="numbertext">3 / 3</div>
+	<img src="../images/horse3.jpeg">
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-    <img src="../images/horse.jpg">
-    <div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <footer>
       <p>
         Contact:
       </p>
@@ -23,6 +46,7 @@
       <p>
         centre équestre: <a href="https://anselin-larochette.ffe.com">https://anselin-larochette.ffe.com</a>
       </p>
-    </div>
+    </footer>
+    <script src="../scripts/main.js"></script>
   </body>
 </html>
